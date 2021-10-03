@@ -1,4 +1,4 @@
-import { AppForm } from '../meta/model/AppForm';
+import { AppForm } from '../meta/model/AppForm.js';
 
 
 /**

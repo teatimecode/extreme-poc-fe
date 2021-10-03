@@ -1,4 +1,4 @@
-import { AutoInvestmentCalculatorForm } from './AutoInvestmentCalculator';
+import { AutoInvestmentCalculatorForm } from './AutoInvestmentCalculator.js';
 
 describe('AutoInvestmentCalculatorForm', () => {
   it('35 year, $5000 with 3% year interest rate', () => {
