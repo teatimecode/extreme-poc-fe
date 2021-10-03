@@ -25,7 +25,9 @@ export const getAutoInvestmentResult = (form) => {
     return base * (1 + rate) + yearly_input;
   }
   return getAutoInvestmentResult({
-    ...form,
+    base,
+    yearly_input,
+    rate,
     years: years - 1
   }) * (1 + rate) + yearly_input;
 }
